@@ -1,0 +1,100 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+header {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    text-align: justify;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+    color: tomato;
+    font-stretch: expanded;
+    font-style: italic;
+}
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: tomato;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+        /* Add styles for the navigation links */
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+    
+        /* Add hover styles for the navigation links */
+
+        nav a:hover {
+            background-color: white;
+            color: gold;
+        }
+
+p {
+    text-align: justify;
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: justify;
+    text-align: center;
+    color: gold;
+    font-size: 6rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+}
+
+.image-container {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 30%;
+    border: 7px solid red;
+
+}
+
+footer {
+    background-color: white; 
+    color: gold; 
+    text-align: center; 
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/*Adding Text overlay to image(s)*/
+
+/*CSS code for text overlay is added to the <head> tag section of the HTML document.*/
+
+/*The .image-container class is used to position the text overlay on top of the image. 
+
+/*The .image-container img class is used to ensure that the image takes up the full width of it's container*/
+
+/*The .image-narration class is used to position the text in the center of the image and style it with a suitable color, 
+font size and a text shadow if required.*/
+
+/*The text overlay is added to an image in the code by wrapping the image and the text in a <div>element with a class of .
+img-group. The text overlay is added using a <p>element with a class of .image-narration. 
+
+/*The position of the image and the style of the text overlay can be changed by modifying the CSS code*/

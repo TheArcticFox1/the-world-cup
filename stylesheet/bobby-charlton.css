@@ -1,0 +1,41 @@
+* {
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellow;
+}
+/* header section */
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video {
+    width: 25%;
+}
+
+.image-container {
+    display: inline-block;
+    margin: 0 10px;
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    align-items: justify;
+    align-items: space-between;
+}
+.narration {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+
+}

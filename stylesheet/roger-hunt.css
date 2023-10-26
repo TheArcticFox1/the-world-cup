@@ -1,0 +1,22 @@
+* {
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: red
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header section */
